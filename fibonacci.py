@@ -15,5 +15,12 @@ else:
   print("Fibonacci series:")
   for i in range(no_of_terms):
     print("Term",i+1,"\t",fibonacci(i))
+    
+
+import datetime
+
+current_time = datetime.datetime.now().time()
+print("The current time is:", current_time)
+
 
 
